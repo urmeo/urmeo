@@ -25,3 +25,7 @@ Fully local, no API keys. On SciFact it lifts **nDCG@10 to 0.685** over dense-on
 **[NovaVision](https://github.com/urme-b/NovaVision)** — Emotion-conditioned image generation with a recovery benchmark: detect emotion in text, ground it in valence/arousal, condition generation, then read the emotion back with CLIP to measure whether the intended affect survives the pipeline.
 An automatic, reproducible measure of emotional controllability, built on GoEmotions under the Ekman mapping. Ships with [a short paper](https://github.com/urme-b/NovaVision/blob/main/paper/paper.md).
 `DistilRoBERTa` · `Stable Diffusion Turbo` · `CLIP` · `Diffusers` · `PyTorch`
+
+**[Multimodal-Multisensor](https://github.com/urme-b/Multimodal-Multisensor)** — Longitudinal, within-subjects study of anxiety (10 adults, 3 weekly sessions) pairing standardized psychometrics with synchronized eye tracking, cardiac/HRV, electrodermal, and facial-action data.
+Finding: high between-person, low within-person variability — suggesting physiological response is a stable individual trait rather than random fluctuation.
+`pandas / NumPy / SciPy` · `PCA / K-Means` · `OpenFace` · `Pupil Labs`
