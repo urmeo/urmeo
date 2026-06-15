@@ -21,3 +21,7 @@ Best model (Random Forest) reaches **0.913 accuracy / 0.898 F1** across 15 subje
 **[NexusRAG](https://github.com/urme-b/NexusRAG)** — Self-correcting retrieval for scientific literature: hybrid dense + lexical search with reciprocal-rank fusion, cross-encoder reranking, and a DeBERTa NLI faithfulness check that re-retrieves when grounding is weak.
 Fully local, no API keys. On SciFact it lifts **nDCG@10 to 0.685** over dense-only retrieval (p = 0.031, paired randomization), at Recall@20 0.870. 266 tests, strict typing.
 `Sentence-Transformers` · `BM25` · `DeBERTa-NLI` · `LanceDB` · `Ollama`
+
+**[NovaVision](https://github.com/urme-b/NovaVision)** — Emotion-conditioned image generation with a recovery benchmark: detect emotion in text, ground it in valence/arousal, condition generation, then read the emotion back with CLIP to measure whether the intended affect survives the pipeline.
+An automatic, reproducible measure of emotional controllability, built on GoEmotions under the Ekman mapping. Ships with [a short paper](https://github.com/urme-b/NovaVision/blob/main/paper/paper.md).
+`DistilRoBERTa` · `Stable Diffusion Turbo` · `CLIP` · `Diffusers` · `PyTorch`
