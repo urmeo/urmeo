@@ -63,3 +63,11 @@
 ---
 
 <p align="center"><i>I'd rather report a confidence interval than a headline number — these projects come with citation metadata and, where it's research, a paper and a test suite, so the results can be checked, not just believed.</i></p>
+
+---
+
+<p align="center">
+  <a href="https://urme-b.github.io/portfolio">Portfolio</a> ·
+  <a href="mailto:urme.emma@gmail.com">Email</a> ·
+  <a href="https://github.com/urme-b">GitHub</a>
+</p>
