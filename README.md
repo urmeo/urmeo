@@ -36,3 +36,7 @@ Finding: high between-person, low within-person variability — suggesting physi
 **Systems** FastAPI · Docker · GitHub Actions · pytest · ruff · mypy · LanceDB · Ollama
 **Data** Python · Jupyter · pandas · NumPy · SciPy · Matplotlib · Seaborn
 **Web** JavaScript · TypeScript · HTML · CSS
+
+---
+
+*I'd rather report a confidence interval than a headline number. Every project here ships with its own paper, citation metadata, and test suite — so the results can be checked, not just believed.*
