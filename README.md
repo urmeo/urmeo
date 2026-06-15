@@ -34,3 +34,10 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" height="48" width="90" />
 </p>
 
+<h3 align="left">🤖 GenAI &amp; NLP</h3>
+<p align="left">
+<img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png" alt="hugging face" height="48" width="48" />
+<img src="https://github.com/ollama.png" alt="ollama" height="48" width="48" />
+<img src="https://github.com/lancedb.png" alt="lancedb" height="48" width="48" />
+</p>
+
