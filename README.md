@@ -62,3 +62,11 @@
 | [**Sensor**](https://github.com/urme-b/Sensor) | A field guide to the 10 sensors and 2 platforms behind the anxiety-detection research — eye tracking, HRV, skin conductance, video, motion capture | Jupyter · biometric sensors |
 | [**Psychometric**](https://github.com/urme-b/Psychometric) | Psychometric test suite (HADS, STAI-S/T, BFI, FQ) with CSV export and PDF report generation | Django · JavaScript · jQuery |
 
+## 🤖 Generative AI, NLP &amp; Applied
+| Project | What it does | Stack |
+|---|---|---|
+| [**NovaVision**](https://github.com/urme-b/NovaVision) | Emotion-conditioned image generation with a CLIP recovery benchmark that measures whether the intended affect survives the pipeline | DistilRoBERTa · Stable Diffusion Turbo · CLIP · Diffusers |
+| [**NexusRAG**](https://github.com/urme-b/NexusRAG) | Self-correcting RAG for science — hybrid retrieval + DeBERTa NLI faithfulness check; **nDCG@10 0.685** (p = 0.031), 266 tests, fully local | Sentence-Transformers · BM25 · DeBERTa-NLI · LanceDB · Ollama |
+| [**PulseShift**](https://github.com/urme-b/PulseShift) | Decision support for outdoor activity under climate stress — ranks safer adaptations from NOAA forecasts and EPA AirNow AQI | Python · Node.js · PostgreSQL · SQLite |
+| [**Antenna**](https://github.com/urme-b/Antenna) | Comparative study of five microstrip patch antenna geometries at 2.45 GHz — CST Studio simulation, FR-4 fabrication, VNA measurement | CST Studio · RF engineering |
+
