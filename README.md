@@ -2,8 +2,6 @@
 
 <h3 align="center">Software Engineer · Trustworthy ML for Human-Centered AI</h3>
 
-<p align="center"><i>Measuring stress, anxiety, and emotion from the body and from language — and proving where the models work, and where they break.</i></p>
-
 <h3 align="left">Languages</h3>
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" height="48" width="48" />
