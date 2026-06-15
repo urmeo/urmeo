@@ -52,3 +52,13 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytest/pytest-original.svg" alt="pytest" height="48" width="48" />
 </p>
 
+# 🧪 Projects
+
+## 🧠 Affective Computing &amp; Physiological ML
+| Project | What it does | Stack |
+|---|---|---|
+| [**CalmSense**](https://github.com/urme-b/CalmSense) | Honest, reproducible stress-detection benchmark on WESAD, evaluated leave-one-subject-out — best model **0.913 acc / 0.898 F1**, with SHAP explanations and a cross-dataset failure analysis | scikit-learn · XGBoost/LightGBM · 1D-CNN (PyTorch) · SHAP · FastAPI · Docker |
+| [**Multimodal-Multisensor**](https://github.com/urme-b/Multimodal-Multisensor) | Longitudinal within-subjects anxiety study (10 adults, 3 weekly sessions) pairing psychometrics with synced eye-tracking, cardiac/HRV, EDA, and facial-action data | pandas · NumPy · SciPy · PCA/K-Means · OpenFace · Pupil Labs |
+| [**Sensor**](https://github.com/urme-b/Sensor) | A field guide to the 10 sensors and 2 platforms behind the anxiety-detection research — eye tracking, HRV, skin conductance, video, motion capture | Jupyter · biometric sensors |
+| [**Psychometric**](https://github.com/urme-b/Psychometric) | Psychometric test suite (HADS, STAI-S/T, BFI, FQ) with CSV export and PDF report generation | Django · JavaScript · jQuery |
+
