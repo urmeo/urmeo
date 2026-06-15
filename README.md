@@ -70,3 +70,6 @@
 | [**PulseShift**](https://github.com/urme-b/PulseShift) | Decision support for outdoor activity under climate stress — ranks safer adaptations from NOAA forecasts and EPA AirNow AQI | Python · Node.js · PostgreSQL · SQLite |
 | [**Antenna**](https://github.com/urme-b/Antenna) | Comparative study of five microstrip patch antenna geometries at 2.45 GHz — CST Studio simulation, FR-4 fabrication, VNA measurement | CST Studio · RF engineering |
 
+---
+
+<p align="center"><i>I'd rather report a confidence interval than a headline number — every project here ships with its own paper, citation metadata, and test suite, so the results can be checked, not just believed.</i></p>
