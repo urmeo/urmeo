@@ -62,4 +62,4 @@
 
 ---
 
-<p align="center"><i>I'd rather report a confidence interval than a headline number — every project here ships with its own paper, citation metadata, and test suite, so the results can be checked, not just believed.</i></p>
+<p align="center"><i>I'd rather report a confidence interval than a headline number — these projects come with citation metadata and, where it's research, a paper and a test suite, so the results can be checked, not just believed.</i></p>
