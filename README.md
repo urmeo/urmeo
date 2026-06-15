@@ -29,3 +29,10 @@ An automatic, reproducible measure of emotional controllability, built on GoEmot
 **[Multimodal-Multisensor](https://github.com/urme-b/Multimodal-Multisensor)** — Longitudinal, within-subjects study of anxiety (10 adults, 3 weekly sessions) pairing standardized psychometrics with synchronized eye tracking, cardiac/HRV, electrodermal, and facial-action data.
 Finding: high between-person, low within-person variability — suggesting physiological response is a stable individual trait rather than random fluctuation.
 `pandas / NumPy / SciPy` · `PCA / K-Means` · `OpenFace` · `Pupil Labs`
+
+### Stack
+
+**Modeling** PyTorch · scikit-learn · XGBoost · LightGBM · Hugging Face Transformers · Diffusers
+**Systems** FastAPI · Docker · GitHub Actions · pytest · ruff · mypy · LanceDB · Ollama
+**Data** Python · Jupyter · pandas · NumPy · SciPy · Matplotlib · Seaborn
+**Web** JavaScript · TypeScript · HTML · CSS
