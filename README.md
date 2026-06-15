@@ -44,7 +44,7 @@
 
 # Projects
 
-## Affective Computing &amp; Physiological ML
+## Affective Computing &amp; Biosignals
 | Project Name | Tech Stack |
 |---|---|
 | [**CalmSense**](https://github.com/urme-b/CalmSense) | scikit-learn · XGBoost/LightGBM · 1D-CNN (PyTorch) · SHAP · FastAPI · Docker |
