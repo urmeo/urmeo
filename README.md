@@ -1,8 +1,10 @@
-<h1 align="center">Hi 👋, I'm Urme</h1>
+<h1 align="center">Urme</h1>
 
-<h3 align="center">Software engineer building trustworthy ML for human-centered AI — measuring stress, anxiety, and emotion from the body and from language, and proving where it works (and where it breaks).</h3>
+<h3 align="center">Software Engineer · Trustworthy ML for Human-Centered AI</h3>
 
-<h3 align="left">💻 Languages</h3>
+<p align="center"><i>Measuring stress, anxiety, and emotion from the body and from language — and proving where the models work, and where they break.</i></p>
+
+<h3 align="left">Languages</h3>
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" height="48" width="48" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" height="48" width="48" />
@@ -13,7 +15,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="sqlite" height="48" width="48" />
 </p>
 
-<h3 align="left">🧠 ML &amp; Data</h3>
+<h3 align="left">Machine Learning &amp; Data</h3>
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" height="48" width="48" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" height="48" width="48" />
@@ -24,14 +26,14 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" height="48" width="90" />
 </p>
 
-<h3 align="left">🤖 GenAI &amp; NLP</h3>
+<h3 align="left">Generative AI &amp; NLP</h3>
 <p align="left">
 <img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png" alt="hugging face" height="48" width="48" />
 <img src="https://github.com/ollama.png" alt="ollama" height="48" width="48" />
 <img src="https://github.com/lancedb.png" alt="lancedb" height="48" width="48" />
 </p>
 
-<h3 align="left">⚙️ Systems &amp; MLOps</h3>
+<h3 align="left">Systems &amp; MLOps</h3>
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" height="48" width="48" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" height="48" width="48" />
@@ -42,9 +44,9 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytest/pytest-original.svg" alt="pytest" height="48" width="48" />
 </p>
 
-# 🧪 Projects
+# Projects
 
-## 🧠 Affective Computing &amp; Physiological ML
+## Affective Computing &amp; Physiological ML
 | Project | What it does | Stack |
 |---|---|---|
 | [**CalmSense**](https://github.com/urme-b/CalmSense) | Honest, reproducible stress-detection benchmark on WESAD, evaluated leave-one-subject-out — best model **0.913 acc / 0.898 F1**, with SHAP explanations and a cross-dataset failure analysis | scikit-learn · XGBoost/LightGBM · 1D-CNN (PyTorch) · SHAP · FastAPI · Docker |
@@ -52,7 +54,7 @@
 | [**Sensor**](https://github.com/urme-b/Sensor) | A field guide to the 10 sensors and 2 platforms behind the anxiety-detection research — eye tracking, HRV, skin conductance, video, motion capture | Jupyter · biometric sensors |
 | [**Psychometric**](https://github.com/urme-b/Psychometric) | Psychometric test suite (HADS, STAI-S/T, BFI, FQ) with CSV export and PDF report generation | Django · JavaScript · jQuery |
 
-## 🤖 Generative AI, NLP &amp; Applied
+## Generative AI, NLP &amp; Applied
 | Project | What it does | Stack |
 |---|---|---|
 | [**NovaVision**](https://github.com/urme-b/NovaVision) | Emotion-conditioned image generation with a CLIP recovery benchmark that measures whether the intended affect survives the pipeline | DistilRoBERTa · Stable Diffusion Turbo · CLIP · Diffusers |
