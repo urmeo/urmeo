@@ -1,4 +1,4 @@
-<h1 align="center">👋 &nbsp;Hello, I'm Urme Bose</h1>
+<h1 align="center">👋 &nbsp;Hello</h1>
 <h3 align="center">Software Engineer · Trustworthy ML for Human-Centered AI</h3>
 
 <p align="center">
