@@ -14,10 +14,20 @@
   <img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,ts,fastapi,docker&theme=dark" alt="tech stack" />
 </p>
 
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=stars,contribs&theme=tokyonight" alt="GitHub stats">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=urme-b&layout=compact&hide_border=true&langs_count=8&card_width=445&theme=tokyonight" alt="Top languages">
+</p>
+
+<p align="center">
+  <img height="170" src="https://streak-stats.demolab.com/?user=urme-b&hide_border=true&theme=tokyonight" alt="GitHub streak">
+</p>
+
 ### Affective Computing
 
 <table width="100%">
-<tr><td width="22%"><b><a href="https://github.com/urme-b/CalmSense">CalmSense</a></b></td><td>scikit-learn · XGBoost / LightGBM · PyTorch · SHAP · FastAPI · Docker</td></tr>
+<tr><td></td><td><img src="spacer.png" width="700" height="1" alt=""></td></tr>
+<tr><td width="20%"><b><a href="https://github.com/urme-b/CalmSense">CalmSense</a></b></td><td>scikit-learn · XGBoost / LightGBM · PyTorch · SHAP · FastAPI · Docker</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/Multimodal-Multisensor">Multimodal-Multisensor</a></b></td><td>pandas · NumPy · SciPy · scikit-learn · PCA / K-Means · Jupyter</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/Sensor">Sensor</a></b></td><td>Python · pandas · Jupyter · HRV / eye-tracking / GSR sensor data</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/Psychometric">Psychometric</a></b></td><td>JavaScript · HTML / CSS · Bootstrap · jsPDF · offline-first</td></tr>
@@ -26,20 +36,12 @@
 ### Generative AI &amp; Applied
 
 <table width="100%">
-<tr><td width="22%"><b><a href="https://github.com/urme-b/NexusRAG">NexusRAG</a></b></td><td>Sentence-Transformers · BM25 · DeBERTa-NLI · LanceDB · Ollama · FastAPI</td></tr>
+<tr><td></td><td><img src="spacer.png" width="700" height="1" alt=""></td></tr>
+<tr><td width="20%"><b><a href="https://github.com/urme-b/NexusRAG">NexusRAG</a></b></td><td>Sentence-Transformers · BM25 · DeBERTa-NLI · LanceDB · Ollama · FastAPI</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/NovaVision">NovaVision</a></b></td><td>PyTorch · Diffusers · Stable Diffusion · CLIP · DistilRoBERTa</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/PulseShift">PulseShift</a></b></td><td>Python · scikit-learn · pandas · JavaScript · GitHub Pages</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/Antenna">Antenna</a></b></td><td>CST Studio Suite · VBA · RF / VNA measurement</td></tr>
 </table>
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight" alt="GitHub stats">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=urme-b&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" alt="Top languages">
-</p>
-
-<p align="center">
-  <img height="160" src="https://streak-stats.demolab.com/?user=urme-b&hide_border=true&theme=tokyonight" alt="GitHub streak">
-</p>
 
 <p align="center">
   <a href="https://urme-b.github.io/portfolio"><b>Portfolio</b></a> &nbsp;·&nbsp; <a href="mailto:urme.bose1@gmail.com"><b>urme.bose1@gmail.com</b></a>
