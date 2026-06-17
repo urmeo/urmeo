@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,pytorch,sklearn,fastapi,docker,githubactions,jupyter,git&theme=dark" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,ts,fastapi,docker&theme=dark" alt="tech stack" />
 </p>
 
 ### Affective Computing
@@ -31,8 +31,6 @@
 <tr><td><b><a href="https://github.com/urme-b/PulseShift">PulseShift</a></b></td><td>Python · scikit-learn · pandas · JavaScript · GitHub Pages</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/Antenna">Antenna</a></b></td><td>CST Studio Suite · VBA · RF / VNA measurement</td></tr>
 </table>
-
----
 
 <p align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight" alt="GitHub stats">
