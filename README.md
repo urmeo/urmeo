@@ -60,6 +60,17 @@
 | [**PulseShift**](https://github.com/urme-b/PulseShift) | Python · scikit-learn · pandas · in-browser JS model · GitHub Pages |
 | [**Antenna**](https://github.com/urme-b/Antenna) | CST Studio · RF engineering |
 
+## GitHub Stats
+
+<p align="center">
+  <img height="170" alt="Urme's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight" />
+  <img height="170" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=urme-b&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=urme-b&hide_border=true&theme=tokyonight" />
+</p>
+
 ---
 
 <p align="center"><i>I'd rather report a confidence interval than a headline number — these projects come with citation metadata and, where it's research, a paper and a test suite, so the results can be checked, not just believed.</i></p>
