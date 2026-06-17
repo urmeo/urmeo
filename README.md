@@ -1,4 +1,4 @@
-<h1 align="center">Urme Bose</h1>
+<h1 align="center">👋 &nbsp;Hello, I'm Urme Bose</h1>
 <h3 align="center">Software Engineer · Trustworthy ML for Human-Centered AI</h3>
 
 <p align="center">
@@ -7,16 +7,12 @@
 
 <p align="center">
   <a href="https://urme-b.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=githubpages&logoColor=1A1B27" alt="Portfolio"></a>
-  <a href="mailto:urme.emma@gmail.com"><img src="https://img.shields.io/badge/Email-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Email"></a>
+  <a href="mailto:urme.bose1@gmail.com"><img src="https://img.shields.io/badge/Email-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Email"></a>
 </p>
-
-<p align="center"><i>I'd rather report a confidence interval than a headline number.</i></p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,js,ts,pytorch,sklearn,fastapi,docker,githubactions,jupyter,git&theme=dark" alt="tech stack" />
 </p>
-
----
 
 ### Affective Computing
 
@@ -48,5 +44,5 @@
 </p>
 
 <p align="center">
-  <a href="https://urme-b.github.io/portfolio"><b>Portfolio</b></a> &nbsp;·&nbsp; <a href="mailto:urme.emma@gmail.com"><b>urme.emma@gmail.com</b></a>
+  <a href="https://urme-b.github.io/portfolio"><b>Portfolio</b></a> &nbsp;·&nbsp; <a href="mailto:urme.bose1@gmail.com"><b>urme.bose1@gmail.com</b></a>
 </p>
