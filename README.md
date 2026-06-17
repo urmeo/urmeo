@@ -20,17 +20,17 @@
 
 | &nbsp;&nbsp;Affective Computing&nbsp;&nbsp; | &nbsp; |
 | :--- | :--- |
-| [**CalmSense**](https://github.com/urme-b/CalmSense) | An honest benchmark for wearable stress detection |
-| [**Multimodal-Multisensor**](https://github.com/urme-b/Multimodal-Multisensor) | How the body responds during psychological testing |
-| [**Sensor**](https://github.com/urme-b/Sensor) | A field guide to anxiety-detection sensors |
-| [**Psychometric**](https://github.com/urme-b/Psychometric) | A private, offline mental-health test suite |
+| [**CalmSense**](https://github.com/urme-b/CalmSense) | An honest benchmark for wearable stress detection<br><sub>scikit-learn · XGBoost/LightGBM · PyTorch · FastAPI</sub> |
+| [**Multimodal-Multisensor**](https://github.com/urme-b/Multimodal-Multisensor) | How the body responds during psychological testing<br><sub>pandas · SciPy · scikit-learn · Jupyter</sub> |
+| [**Sensor**](https://github.com/urme-b/Sensor) | A field guide to anxiety-detection sensors<br><sub>Python · pandas · Jupyter</sub> |
+| [**Psychometric**](https://github.com/urme-b/Psychometric) | A private, offline mental-health test suite<br><sub>JavaScript · Bootstrap · jsPDF</sub> |
 
 | &nbsp;&nbsp;Generative AI &amp; Applied&nbsp;&nbsp; | &nbsp; |
 | :--- | :--- |
-| [**NexusRAG**](https://github.com/urme-b/NexusRAG) | A RAG that fact-checks its own answers |
-| [**NovaVision**](https://github.com/urme-b/NovaVision) | Turning an emotion into a generated image |
-| [**PulseShift**](https://github.com/urme-b/PulseShift) | Will the weather ruin your outdoor plans? |
-| [**Antenna**](https://github.com/urme-b/Antenna) | RF antenna design, from simulation to fabrication |
+| [**NexusRAG**](https://github.com/urme-b/NexusRAG) | A RAG that fact-checks its own answers<br><sub>Sentence-Transformers · LanceDB · Ollama · FastAPI</sub> |
+| [**NovaVision**](https://github.com/urme-b/NovaVision) | Turning an emotion into a generated image<br><sub>PyTorch · Diffusers · CLIP · Stable Diffusion</sub> |
+| [**PulseShift**](https://github.com/urme-b/PulseShift) | Will the weather ruin your outdoor plans?<br><sub>Python · scikit-learn · pandas · JS</sub> |
+| [**Antenna**](https://github.com/urme-b/Antenna) | RF antenna design, from simulation to fabrication<br><sub>CST Studio · VBA</sub> |
 
 ---
 
