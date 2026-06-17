@@ -18,19 +18,23 @@
 
 ---
 
-| &nbsp;&nbsp;Affective Computing&nbsp;&nbsp; | &nbsp; |
-| :--- | :--- |
-| [**CalmSense**](https://github.com/urme-b/CalmSense) | An honest benchmark for wearable stress detection<br><sub>scikit-learn · XGBoost/LightGBM · PyTorch · FastAPI</sub> |
-| [**Multimodal-Multisensor**](https://github.com/urme-b/Multimodal-Multisensor) | How the body responds during psychological testing<br><sub>pandas · SciPy · scikit-learn · Jupyter</sub> |
-| [**Sensor**](https://github.com/urme-b/Sensor) | A field guide to anxiety-detection sensors<br><sub>Python · pandas · Jupyter</sub> |
-| [**Psychometric**](https://github.com/urme-b/Psychometric) | A private, offline mental-health test suite<br><sub>JavaScript · Bootstrap · jsPDF</sub> |
+### Affective Computing
 
-| &nbsp;&nbsp;Generative AI &amp; Applied&nbsp;&nbsp; | &nbsp; |
-| :--- | :--- |
-| [**NexusRAG**](https://github.com/urme-b/NexusRAG) | A RAG that fact-checks its own answers<br><sub>Sentence-Transformers · LanceDB · Ollama · FastAPI</sub> |
-| [**NovaVision**](https://github.com/urme-b/NovaVision) | Turning an emotion into a generated image<br><sub>PyTorch · Diffusers · CLIP · Stable Diffusion</sub> |
-| [**PulseShift**](https://github.com/urme-b/PulseShift) | Will the weather ruin your outdoor plans?<br><sub>Python · scikit-learn · pandas · JS</sub> |
-| [**Antenna**](https://github.com/urme-b/Antenna) | RF antenna design, from simulation to fabrication<br><sub>CST Studio · VBA</sub> |
+<table width="100%">
+<tr><td width="22%"><b><a href="https://github.com/urme-b/CalmSense">CalmSense</a></b></td><td>scikit-learn · XGBoost / LightGBM · PyTorch · SHAP · FastAPI · Docker</td></tr>
+<tr><td><b><a href="https://github.com/urme-b/Multimodal-Multisensor">Multimodal-Multisensor</a></b></td><td>pandas · NumPy · SciPy · scikit-learn · PCA / K-Means · Jupyter</td></tr>
+<tr><td><b><a href="https://github.com/urme-b/Sensor">Sensor</a></b></td><td>Python · pandas · Jupyter · HRV / eye-tracking / GSR sensor data</td></tr>
+<tr><td><b><a href="https://github.com/urme-b/Psychometric">Psychometric</a></b></td><td>JavaScript · HTML / CSS · Bootstrap · jsPDF · offline-first</td></tr>
+</table>
+
+### Generative AI &amp; Applied
+
+<table width="100%">
+<tr><td width="22%"><b><a href="https://github.com/urme-b/NexusRAG">NexusRAG</a></b></td><td>Sentence-Transformers · BM25 · DeBERTa-NLI · LanceDB · Ollama · FastAPI</td></tr>
+<tr><td><b><a href="https://github.com/urme-b/NovaVision">NovaVision</a></b></td><td>PyTorch · Diffusers · Stable Diffusion · CLIP · DistilRoBERTa</td></tr>
+<tr><td><b><a href="https://github.com/urme-b/PulseShift">PulseShift</a></b></td><td>Python · scikit-learn · pandas · JavaScript · GitHub Pages</td></tr>
+<tr><td><b><a href="https://github.com/urme-b/Antenna">Antenna</a></b></td><td>CST Studio Suite · VBA · RF / VNA measurement</td></tr>
+</table>
 
 ---
 
