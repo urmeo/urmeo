@@ -50,14 +50,14 @@
 | [**CalmSense**](https://github.com/urme-b/CalmSense) | scikit-learn · XGBoost/LightGBM · 1D-CNN (PyTorch) · SHAP · FastAPI · Docker |
 | [**Multimodal-Multisensor**](https://github.com/urme-b/Multimodal-Multisensor) | pandas · NumPy · SciPy · PCA/K-Means · OpenFace · Pupil Labs |
 | [**Sensor**](https://github.com/urme-b/Sensor) | Jupyter · biometric sensors |
-| [**Psychometric**](https://github.com/urme-b/Psychometric) | Django · JavaScript · jQuery |
+| [**Psychometric**](https://github.com/urme-b/Psychometric) | JavaScript · HTML/CSS · Bootstrap · jsPDF · Node (tests) |
 
 ## Generative AI, NLP &amp; Applied
 | Project Name | Tech Stack |
 |---|---|
 | [**NovaVision**](https://github.com/urme-b/NovaVision) | DistilRoBERTa · Stable Diffusion Turbo · CLIP · Diffusers |
 | [**NexusRAG**](https://github.com/urme-b/NexusRAG) | Sentence-Transformers · BM25 · DeBERTa-NLI · LanceDB · Ollama |
-| [**PulseShift**](https://github.com/urme-b/PulseShift) | Python · Node.js · PostgreSQL · SQLite |
+| [**PulseShift**](https://github.com/urme-b/PulseShift) | Python · scikit-learn · pandas · in-browser JS model · GitHub Pages |
 | [**Antenna**](https://github.com/urme-b/Antenna) | CST Studio · RF engineering |
 
 ---
