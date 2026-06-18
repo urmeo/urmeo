@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img width="420" height="150" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&hide=stars,contribs&hide_rank=true&card_width=400&theme=tokyonight" alt="GitHub stats">
+  <img width="420" height="150" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&hide=stars,contribs&card_width=400&theme=tokyonight" alt="GitHub stats">
   <img width="420" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=urme-b&layout=compact&hide_border=true&langs_count=6&card_width=400&theme=tokyonight" alt="Top languages">
 </p>
 
