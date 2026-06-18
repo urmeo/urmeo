@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=stars,contribs&theme=tokyonight" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=urme-b&layout=compact&hide_border=true&langs_count=6&theme=tokyonight" alt="Top languages">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=urme-b&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide=stars,contribs&card_width=400&theme=tokyonight" alt="GitHub stats">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=urme-b&layout=compact&hide_border=true&langs_count=6&card_width=400&theme=tokyonight" alt="Top languages">
 </p>
 
 <p align="center">
