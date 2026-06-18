@@ -2,10 +2,6 @@
 <h3 align="center">Software Engineer · Trustworthy ML for Human-Centered AI</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=540&lines=Human-centered+AI%2C+honestly+reported;Reproducible+ML+%C2%B7+results+you+can+check;Affective+computing+%26+applied+research" alt="tagline" />
-</p>
-
-<p align="center">
   <a href="https://urme-b.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=githubpages&logoColor=1A1B27" alt="Portfolio"></a>
   <a href="mailto:urme.bose1@gmail.com"><img src="https://img.shields.io/badge/Email-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Email"></a>
 </p>
