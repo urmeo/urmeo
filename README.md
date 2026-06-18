@@ -19,10 +19,6 @@
   <img width="420" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=urme-b&layout=compact&hide_border=true&langs_count=6&card_width=400&theme=tokyonight" alt="Top languages">
 </p>
 
-<p align="center">
-  <img height="170" src="https://streak-stats.demolab.com/?user=urme-b&hide_border=true&theme=tokyonight" alt="GitHub streak">
-</p>
-
 ### Affective Computing
 
 <table width="100%">
