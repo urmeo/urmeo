@@ -15,8 +15,9 @@
 ## Projects
 
 <table width="100%">
-<tr><td width="24%"></td><td><img src="spacer.png" width="2000" height="1" alt=""></td><td width="13%"></td></tr>
-<tr><th>Project</th><th>Tech stack</th><th>Links</th></tr>
+<thead>
+<tr><th width="24%">Project</th><th>Tech stack</th><th width="13%">Links</th></tr>
+</thead>
 <tr><td><b><a href="https://github.com/urme-b/CalmSense">CalmSense</a></b></td><td>scikit-learn&nbsp;&nbsp;·&nbsp;&nbsp;XGBoost&nbsp;&nbsp;·&nbsp;&nbsp;PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;SHAP&nbsp;&nbsp;·&nbsp;&nbsp;FastAPI</td><td align="center"><a href="https://urme-b.github.io/CalmSense/">Live demo</a></td></tr>
 <tr><td><b><a href="https://github.com/urme-b/NexusRAG">NexusRAG</a></b></td><td>Sentence-Transformers&nbsp;&nbsp;·&nbsp;&nbsp;DeBERTa-NLI&nbsp;&nbsp;·&nbsp;&nbsp;LanceDB&nbsp;&nbsp;·&nbsp;&nbsp;Ollama</td><td align="center"><a href="https://github.com/urme-b/NexusRAG#what-the-benchmark-shows">Benchmark</a></td></tr>
 <tr><td><b><a href="https://github.com/urme-b/NovaVision">NovaVision</a></b></td><td>PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;Diffusers&nbsp;&nbsp;·&nbsp;&nbsp;Stable Diffusion&nbsp;&nbsp;·&nbsp;&nbsp;CLIP</td><td align="center"><a href="https://github.com/urme-b/NovaVision#results">Results</a></td></tr>
@@ -25,4 +26,5 @@
 <tr><td><b><a href="https://github.com/urme-b/Psychometric">Psychometric</a></b></td><td>JavaScript&nbsp;&nbsp;·&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;·&nbsp;&nbsp;jsPDF</td><td align="center"><a href="https://urme-b.github.io/Psychometric/">Live demo</a></td></tr>
 <tr><td><b><a href="https://github.com/urme-b/PulseShift">PulseShift</a></b></td><td>Python&nbsp;&nbsp;·&nbsp;&nbsp;scikit-learn&nbsp;&nbsp;·&nbsp;&nbsp;Node.js&nbsp;&nbsp;·&nbsp;&nbsp;SQLite</td><td align="center"><a href="https://urme-b.github.io/PulseShift/">Live demo</a></td></tr>
 <tr><td><b><a href="https://github.com/urme-b/Antenna">Antenna</a></b></td><td>CST Studio Suite&nbsp;&nbsp;·&nbsp;&nbsp;VBA&nbsp;&nbsp;·&nbsp;&nbsp;RF / VNA</td><td align="center">—</td></tr>
+<tr><td></td><td><picture><img src="spacer.png" width="2000" height="1" alt=""></picture></td><td></td></tr>
 </table>
