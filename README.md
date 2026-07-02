@@ -1,16 +1,20 @@
 <h1 align="center">Hi, I'm Urme</h1>
 <p align="center"><b>Machine Learning Engineer · Trustworthy ML for Human-Centered AI</b></p>
+<br>
 
 <p align="center">
   <a href="https://urme-b.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=githubpages&logoColor=1A1B27" alt="Portfolio"></a>
-  <a href="mailto:urme.bose1@gmail.com"><img src="https://img.shields.io/badge/%E2%A0%80%E2%80%8A%E2%A0%80Email%E2%A0%80%E2%A0%80-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Email"></a>
+  <a href="mailto:urme.bose1@gmail.com"><img src="https://img.shields.io/badge/Reach%20out-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Reach out"></a>
 </p>
+<br>
 
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cpytorch%2Csklearn%2Cts%2Creact%2Cjs%2Cfastapi%2Cdocker&theme=dark"><img src="https://skillicons.dev/icons?i=py%2Cpytorch%2Csklearn%2Cts%2Creact%2Cjs%2Cfastapi%2Cdocker&theme=light" alt="Python, PyTorch, scikit-learn, TypeScript, React, JavaScript, FastAPI, Docker"></picture>
 </p>
+<br>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/stats.svg"><img src="./profile/stats-light.svg" width="49%" title="GitHub stats" alt="GitHub stats"></picture>&nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs.svg"><img src="./profile/top-langs-light.svg" width="49%" title="Top languages" alt="Top languages"></picture></p>
+<br>
 
 ## Projects
 
