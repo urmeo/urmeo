@@ -18,7 +18,8 @@
 ## Projects
 
 <table width="100%">
-<tr><th width="24%">Project</th><th>Tech stack</th></tr>
+<tr><td width="24%"></td><td><img src="spacer.png" width="2000" height="1" alt=""></td></tr>
+<tr><th>Project</th><th>Tech stack</th></tr>
 <tr><td><b><a href="https://github.com/urme-b/CalmSense">CalmSense</a></b></td><td>scikit-learn&nbsp;&nbsp;·&nbsp;&nbsp;XGBoost / LightGBM&nbsp;&nbsp;·&nbsp;&nbsp;PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;SHAP&nbsp;&nbsp;·&nbsp;&nbsp;FastAPI&nbsp;&nbsp;·&nbsp;&nbsp;Docker</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/NexusRAG">NexusRAG</a></b></td><td>Sentence-Transformers&nbsp;&nbsp;·&nbsp;&nbsp;BM25&nbsp;&nbsp;·&nbsp;&nbsp;DeBERTa-NLI&nbsp;&nbsp;·&nbsp;&nbsp;LanceDB&nbsp;&nbsp;·&nbsp;&nbsp;Ollama&nbsp;&nbsp;·&nbsp;&nbsp;FastAPI</td></tr>
 <tr><td><b><a href="https://github.com/urme-b/NovaVision">NovaVision</a></b></td><td>PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;Diffusers&nbsp;&nbsp;·&nbsp;&nbsp;Stable Diffusion&nbsp;&nbsp;·&nbsp;&nbsp;CLIP&nbsp;&nbsp;·&nbsp;&nbsp;DistilRoBERTa</td></tr>
