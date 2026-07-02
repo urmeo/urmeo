@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Urme</h1>
-<p align="center"><b>Machine Learning Engineer · Trustworthy ML for Human-Centered AI</b></p>
+<h3 align="center">Machine Learning Engineer · Trustworthy ML for Human-Centered AI</h3>
 <br>
 
 <p align="center">
