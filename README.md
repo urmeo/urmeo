@@ -10,11 +10,7 @@
   <img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,ts,react,js,fastapi,docker&theme=dark" alt="Python, PyTorch, scikit-learn, TypeScript, React, JavaScript, FastAPI, Docker">
 </p>
 
-<p align="center">
-  <img align="left" src="./profile/stats.svg" width="49%" title="GitHub stats" alt="GitHub stats">
-  <img align="right" src="./profile/top-langs.svg" width="49%" title="Top languages" alt="Top languages">
-</p>
-<br clear="both">
+<p align="center"><img src="./profile/stats.svg" width="49%" title="GitHub stats" alt="GitHub stats">&nbsp;<img src="./profile/top-langs.svg" width="49%" title="Top languages" alt="Top languages"></p>
 
 ## Projects
 
