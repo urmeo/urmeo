@@ -2,8 +2,12 @@ name: Update README stats cards
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily at midnight UTC
+    - cron: "17 3 * * *" # daily at 03:17 UTC (off-peak; top-of-hour slots get delayed/dropped)
   workflow_dispatch:
+
+concurrency:
+  group: update-cards
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -53,4 +57,5 @@ jobs:
           git config user.email "148221893+urme-b@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "updated stats" || exit 0
+          git pull --rebase origin main
           git push
