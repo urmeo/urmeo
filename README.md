@@ -15,20 +15,15 @@
   <img src="./profile/top-langs.svg" height="150" title="Top languages" alt="Top languages">
 </p>
 
-## Affective Computing
+## Projects
 
 | Project | Tech stack |
 |---|---|
 | **[CalmSense](https://github.com/urme-b/CalmSense)** | scikit-learn · XGBoost / LightGBM · PyTorch · SHAP · FastAPI · Docker |
+| **[NexusRAG](https://github.com/urme-b/NexusRAG)** | Sentence-Transformers · BM25 · DeBERTa-NLI · LanceDB · Ollama · FastAPI |
+| **[NovaVision](https://github.com/urme-b/NovaVision)** | PyTorch · Diffusers · Stable Diffusion · CLIP · DistilRoBERTa |
 | **[Multimodal-Multisensor](https://github.com/urme-b/Multimodal-Multisensor)** | pandas · NumPy · SciPy · scikit-learn · PCA / K-Means · Jupyter |
 | **[Sensor](https://github.com/urme-b/Sensor)** | Python · pandas · Jupyter · HRV / eye-tracking / GSR sensor data |
 | **[Psychometric](https://github.com/urme-b/Psychometric)** | JavaScript · HTML / CSS · Bootstrap · jsPDF · offline-first |
-
-## Generative AI & Applied
-
-| Project | Tech stack |
-|---|---|
-| **[NexusRAG](https://github.com/urme-b/NexusRAG)** | Sentence-Transformers · BM25 · DeBERTa-NLI · LanceDB · Ollama · FastAPI |
-| **[NovaVision](https://github.com/urme-b/NovaVision)** | PyTorch · Diffusers · Stable Diffusion · CLIP · DistilRoBERTa |
 | **[PulseShift](https://github.com/urme-b/PulseShift)** | Python · scikit-learn · pandas · JavaScript · GitHub Pages |
 | **[Antenna](https://github.com/urme-b/Antenna)** | CST Studio Suite · VBA · RF / VNA measurement |
