@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://urme-b.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=githubpages&logoColor=1A1B27" alt="Portfolio"></a>
-  <a href="mailto:urme.bose1@gmail.com"><img src="https://img.shields.io/badge/Email-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Email"></a>
+  <a href="mailto:urme.bose1@gmail.com"><img src="https://img.shields.io/badge/%E2%A0%80%E2%80%8A%E2%A0%80Email%E2%A0%80%E2%A0%80-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Email"></a>
 </p>
 
 <p align="center">
