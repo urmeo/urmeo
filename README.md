@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="./profile/stats.svg" height="150" title="GitHub stats" alt="GitHub stats">
-  <img src="./profile/top-langs.svg" height="150" title="Top languages" alt="Top languages">
+  <img src="./profile/stats.svg" width="440" title="GitHub stats" alt="GitHub stats">
+  <img src="./profile/top-langs.svg" width="440" title="Top languages" alt="Top languages">
 </p>
 
 ## Projects
