@@ -3,12 +3,6 @@
 <br>
 
 <p align="center">
-  <a href="https://urme-b.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-7AA2F7?style=for-the-badge&logo=githubpages&logoColor=1A1B27" alt="Portfolio"></a>
-  <a href="mailto:urme.bose1@gmail.com"><img src="https://img.shields.io/badge/Reach%20out-BB9AF7?style=for-the-badge&logo=gmail&logoColor=1A1B27" alt="Reach out"></a>
-</p>
-<br>
-
-<p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cpytorch%2Csklearn%2Cts%2Creact%2Cjs%2Cfastapi%2Cdocker&theme=dark"><img src="https://skillicons.dev/icons?i=py%2Cpytorch%2Csklearn%2Cts%2Creact%2Cjs%2Cfastapi%2Cdocker&theme=light" alt="Python, PyTorch, scikit-learn, TypeScript, React, JavaScript, FastAPI, Docker"></picture>
 </p>
 <br>
