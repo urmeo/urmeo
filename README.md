@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,pytorch,sklearn,ts,react,js,fastapi,docker&theme=dark"><img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,ts,react,js,fastapi,docker&theme=light" alt="Python, PyTorch, scikit-learn, TypeScript, React, JavaScript, FastAPI, Docker"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cpytorch%2Csklearn%2Cts%2Creact%2Cjs%2Cfastapi%2Cdocker&theme=dark"><img src="https://skillicons.dev/icons?i=py%2Cpytorch%2Csklearn%2Cts%2Creact%2Cjs%2Cfastapi%2Cdocker&theme=light" alt="Python, PyTorch, scikit-learn, TypeScript, React, JavaScript, FastAPI, Docker"></picture>
 </p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/stats.svg"><img src="./profile/stats-light.svg" width="49%" title="GitHub stats" alt="GitHub stats"></picture>&nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs.svg"><img src="./profile/top-langs-light.svg" width="49%" title="Top languages" alt="Top languages"></picture></p>
