@@ -23,7 +23,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide=contribs&hide_border=true&card_width=495&line_height=26&title_color=a5b4fc&icon_color=8b7ff5&text_color=c9d1d9&ring_color=a5b4fc&bg_color=0d1117
+          options: username=${{ github.repository_owner }}&show_icons=true&show=reviews&hide=contribs&hide_border=true&card_width=495&line_height=26&title_color=a5b4fc&icon_color=8b7ff5&text_color=c9d1d9&ring_color=a5b4fc&bg_color=0d1117
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -39,7 +39,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide=contribs&hide_border=true&card_width=495&line_height=26&title_color=4f46e5&icon_color=6366f1&text_color=24292f&ring_color=4f46e5&bg_color=ffffff
+          options: username=${{ github.repository_owner }}&show_icons=true&show=reviews&hide=contribs&hide_border=true&card_width=495&line_height=26&title_color=4f46e5&icon_color=6366f1&text_color=24292f&ring_color=4f46e5&bg_color=ffffff
           path: profile/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -57,5 +57,5 @@ jobs:
           git config user.email "148221893+urme-b@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "updated stats" || exit 0
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push
