@@ -27,6 +27,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          # The staleness check below reads the card's last commit date, which
+          # a depth-1 checkout cannot see.
+          fetch-depth: 0
 
       # Without STATS_TOKEN the two stats steps skip, top-langs regenerates
       # byte-identically, `git commit` finds nothing, and `|| exit 0` turns the
@@ -93,3 +97,39 @@ jobs:
           git pull --rebase -X theirs origin main
           git push
           echo "Committed refreshed cards: $(git diff --name-only HEAD~1 HEAD | tr '\n' ' ')" >> "$GITHUB_STEP_SUMMARY"
+
+      # A token-presence check only catches the token being ABSENT. It says nothing
+      # about a token that EXPIRED, an action that silently returned a stale card, or
+      # any future cause. This asserts the outcome instead of the cause: if the card
+      # itself has not moved in over MAX_AGE_DAYS, say so, whatever the reason.
+      - name: Warn if the stats card is stale
+        if: always()
+        env:
+          MAX_AGE_DAYS: "3"
+        run: |
+          card=profile/stats.svg
+          if [ ! -f "$card" ]; then
+            echo "::warning title=Stats card missing::$card does not exist."
+            exit 0
+          fi
+          last=$(git log -1 --format=%cI -- "$card")
+          if [ -z "$last" ]; then
+            echo "::warning title=Stats card age unknown::No commit found for $card; cannot check freshness."
+            exit 0
+          fi
+          age_days=$(( ( $(date -u +%s) - $(date -u -d "$last" +%s) ) / 86400 ))
+          echo "$card last changed $last (${age_days}d ago); threshold ${MAX_AGE_DAYS}d."
+          if [ "$age_days" -gt "${MAX_AGE_DAYS}" ]; then
+            {
+              echo "### Stats card is stale"
+              echo ""
+              echo "\`$card\` last changed **${age_days} days ago** (${last}), over the ${MAX_AGE_DAYS}-day threshold."
+              echo ""
+              echo "Most likely \`STATS_TOKEN\` is unset or has expired. Check the run log above:"
+              echo "a skipped \"Generate stats card\" step means the secret is missing; a failed one"
+              echo "means it is present but rejected."
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::warning title=Stats card stale::$card has not changed in ${age_days} days (threshold ${MAX_AGE_DAYS})."
+          else
+            echo "Stats card is fresh." >> "$GITHUB_STEP_SUMMARY"
+          fi
