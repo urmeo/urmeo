@@ -68,6 +68,47 @@ jobs:
           path: profile/stats-light.svg
           token: ${{ secrets.STATS_TOKEN }}
 
+      # A token that is present but bad (expired, wrong scope, revoked) does NOT
+      # skip these steps -- the generator runs and can emit an "error card", which
+      # the commit step would then publish to the profile. Absence is already
+      # guarded; this guards presence-but-broken. Only runs when we actually tried.
+      - name: Validate the generated stats cards
+        if: ${{ env.HAS_STATS_TOKEN == 'true' }}
+        run: |
+          fail=0
+          for card in profile/stats.svg profile/stats-light.svg; do
+            if [ ! -s "$card" ]; then
+              echo "::error title=Stats card empty::$card is missing or zero bytes."
+              fail=1; continue
+            fi
+            bytes=$(wc -c < "$card")
+            if [ "$bytes" -lt 2000 ]; then
+              echo "::error title=Stats card too small::$card is ${bytes} bytes; a real card is ~8 kB."
+              fail=1
+            fi
+            if grep -qiE 'something went wrong|not accessible|maximum retries|rate limit|invalid username|could not fetch' "$card"; then
+              echo "::error title=Stats card is an error card::$card contains a generator error message."
+              grep -oiE 'something went wrong[^<]*|not accessible[^<]*|maximum retries[^<]*|rate limit[^<]*' "$card" | head -3
+              fail=1
+            fi
+            if ! grep -q 'Total Stars Earned' "$card"; then
+              echo "::error title=Stats card missing data::$card has no 'Total Stars Earned' row."
+              fail=1
+            fi
+          done
+          if [ "$fail" -ne 0 ]; then
+            {
+              echo "### Stats cards rejected"
+              echo ""
+              echo "The generator ran but produced something that is not a valid stats card."
+              echo "The most likely cause is a \`STATS_TOKEN\` that has expired, been revoked,"
+              echo "or lacks the \`read:user\` scope. The committed cards were left untouched."
+            } >> "$GITHUB_STEP_SUMMARY"
+            git checkout -- profile/stats.svg profile/stats-light.svg 2>/dev/null || true
+            exit 1
+          fi
+          echo "Stats cards look valid ($(wc -c < profile/stats.svg) bytes)."
+
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
