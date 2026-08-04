@@ -1,0 +1,24 @@
+name: Probe GITHUB_TOKEN capability
+on: { workflow_dispatch: }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    permissions: { contents: read }
+    steps:
+      - name: Can GITHUB_TOKEN read user contributions?
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "--- contributionsCollection via GITHUB_TOKEN ---"
+          gh api graphql -f query='
+            { user(login:"urmeo") { contributionsCollection {
+                totalCommitContributions restrictedContributionsCount
+                totalPullRequestReviewContributions } } }' 2>&1 | head -20
+          echo "--- exit: $? ---"
+          echo "--- stars via REST ---"
+          gh api "users/urmeo/repos?per_page=100&type=owner" \
+            -q '[.[]|select(.fork==false)|.stargazers_count]|add' 2>&1 | head -3
+          echo "--- search counts ---"
+          gh api "search/issues?q=is%3Apr+author%3Aurmeo&per_page=1" -q '.total_count' 2>&1 | head -2
+          gh api "search/issues?q=is%3Apr+reviewed-by%3Aurmeo&per_page=1" -q '.total_count' 2>&1 | head -2
+          gh api "search/issues?q=is%3Aissue+author%3Aurmeo&per_page=1" -q '.total_count' 2>&1 | head -2
