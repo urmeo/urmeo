@@ -19,6 +19,7 @@
 <tr><td><b><a href="https://github.com/urmeo/CalmSense">CalmSense</a></b></td><td>scikit-learn&nbsp;&nbsp;·&nbsp;&nbsp;XGBoost&nbsp;&nbsp;·&nbsp;&nbsp;PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;SHAP&nbsp;&nbsp;·&nbsp;&nbsp;ONNX Runtime</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/NexusRAG">NexusRAG</a></b></td><td>Sentence-Transformers&nbsp;&nbsp;·&nbsp;&nbsp;DeBERTa-NLI&nbsp;&nbsp;·&nbsp;&nbsp;LanceDB&nbsp;&nbsp;·&nbsp;&nbsp;Ollama</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/NovaVision">NovaVision</a></b></td><td>PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;Diffusers&nbsp;&nbsp;·&nbsp;&nbsp;Stable Diffusion&nbsp;&nbsp;·&nbsp;&nbsp;CLIP</td></tr>
+<tr><td><b><a href="https://github.com/urmeo/retinonorm">retinonorm</a></b></td><td>NumPy&nbsp;&nbsp;·&nbsp;&nbsp;SciPy&nbsp;&nbsp;·&nbsp;&nbsp;PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;CNN probing</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/Multimodal-Multisensor">Multimodal-Multisensor</a></b></td><td>scikit-learn&nbsp;&nbsp;·&nbsp;&nbsp;PCA / K-Means&nbsp;&nbsp;·&nbsp;&nbsp;pandas&nbsp;&nbsp;·&nbsp;&nbsp;SciPy</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/Sensor">Sensor</a></b></td><td>Python&nbsp;&nbsp;·&nbsp;&nbsp;pandas&nbsp;&nbsp;·&nbsp;&nbsp;HRV / eye-tracking / GSR</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/Psychometric">Psychometric</a></b></td><td>JavaScript&nbsp;&nbsp;·&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;·&nbsp;&nbsp;jsPDF</td></tr>
