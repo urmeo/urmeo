@@ -66,46 +66,6 @@ jobs:
           path: profile/stats-light.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
-      # A token that is present but bad (expired, wrong scope, revoked) does NOT
-      # skip these steps -- the generator runs and can emit an "error card", which
-      # the commit step would then publish to the profile. Absence is already
-      # guarded; this guards presence-but-broken. Only runs when we actually tried.
-      - name: Validate the generated stats cards
-        run: |
-          fail=0
-          for card in profile/stats.svg profile/stats-light.svg; do
-            if [ ! -s "$card" ]; then
-              echo "::error title=Stats card empty::$card is missing or zero bytes."
-              fail=1; continue
-            fi
-            bytes=$(wc -c < "$card")
-            if [ "$bytes" -lt 2000 ]; then
-              echo "::error title=Stats card too small::$card is ${bytes} bytes; a real card is ~8 kB."
-              fail=1
-            fi
-            if grep -qiE 'something went wrong|not accessible|maximum retries|rate limit|invalid username|could not fetch' "$card"; then
-              echo "::error title=Stats card is an error card::$card contains a generator error message."
-              grep -oiE 'something went wrong[^<]*|not accessible[^<]*|maximum retries[^<]*|rate limit[^<]*' "$card" | head -3
-              fail=1
-            fi
-            if ! grep -q 'Total Stars Earned' "$card"; then
-              echo "::error title=Stats card missing data::$card has no 'Total Stars Earned' row."
-              fail=1
-            fi
-          done
-          if [ "$fail" -ne 0 ]; then
-            {
-              echo "### Stats cards rejected"
-              echo ""
-              echo "The generator ran but produced something that is not a valid stats card."
-              echo "The most likely cause is a \`STATS_TOKEN\` that has expired, been revoked,"
-              echo "or lacks the \`read:user\` scope. The committed cards were left untouched."
-            } >> "$GITHUB_STEP_SUMMARY"
-            git checkout -- profile/stats.svg profile/stats-light.svg 2>/dev/null || true
-            exit 1
-          fi
-          echo "Stats cards look valid ($(wc -c < profile/stats.svg) bytes)."
-
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -121,6 +81,46 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&card_width=495&title_color=4f46e5&text_color=24292f&bg_color=ffffff
           path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate the generated cards
+        run: |
+          fail=0
+          for card in profile/stats.svg profile/stats-light.svg profile/top-langs.svg profile/top-langs-light.svg; do
+            if [ ! -s "$card" ]; then
+              echo "::error title=Card empty::$card is missing or zero bytes."
+              fail=1; continue
+            fi
+            bytes=$(wc -c < "$card")
+            if [ "$bytes" -lt 2000 ]; then
+              echo "::error title=Card too small::$card is ${bytes} bytes; expected a populated SVG."
+              fail=1
+            fi
+            if grep -qiE 'something went wrong|not accessible|maximum retries|rate limit|invalid username|could not fetch' "$card"; then
+              echo "::error title=Card is an error card::$card contains a generator error message."
+              grep -oiE 'something went wrong[^<]*|not accessible[^<]*|maximum retries[^<]*|rate limit[^<]*' "$card" | head -3
+              fail=1
+            fi
+            case "$card" in
+              profile/stats*) expected='Total Stars Earned' ;;
+              profile/top-langs*) expected='Most Used Languages' ;;
+            esac
+            if ! grep -q "$expected" "$card"; then
+              echo "::error title=Card missing data::$card has no '$expected' data."
+              fail=1
+            fi
+          done
+          if [ "$fail" -ne 0 ]; then
+            {
+              echo "### Cards rejected"
+              echo ""
+              echo "The generator returned a missing, incomplete, or error card."
+              echo "Check the generation steps for API or token errors."
+              echo "The committed cards were left untouched."
+            } >> "$GITHUB_STEP_SUMMARY"
+            git checkout -- profile/stats.svg profile/stats-light.svg profile/top-langs.svg profile/top-langs-light.svg 2>/dev/null || true
+            exit 1
+          fi
+          echo "All four cards contain data."
 
       - name: Commit cards
         run: |
@@ -163,9 +163,9 @@ jobs:
               echo ""
               echo "\`$card\` last changed **${age_days} days ago** (${last}), over the ${MAX_AGE_DAYS}-day threshold."
               echo ""
-              echo "Most likely \`STATS_TOKEN\` is unset or has expired. Check the run log above:"
-              echo "a skipped \"Generate stats card\" step means the secret is missing; a failed one"
-              echo "means it is present but rejected."
+              echo "Check the generation and validation steps above for API or token errors."
+              echo "Cards use GITHUB_TOKEN when STATS_TOKEN is absent; unchanged public"
+              echo "statistics can also produce an unchanged card."
             } >> "$GITHUB_STEP_SUMMARY"
             echo "::warning title=Stats card stale::$card has not changed in ${age_days} days (threshold ${MAX_AGE_DAYS})."
           else
