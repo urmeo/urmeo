@@ -7,16 +7,13 @@
 </p>
 <br>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile/stats.svg"><img src="./profile/stats-light.svg" width="49%" alt="GitHub stats"></picture>&nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs.svg"><img src="./profile/top-langs-light.svg" width="49%" alt="Top languages"></picture></p>
-<br>
-
 ## Projects
 
 <table width="100%">
 <thead>
 <tr><th width="26%">Project</th><th>Tech stack</th></tr>
 </thead>
-<tr><td><b><a href="https://github.com/urmeo/CalmSense">CalmSense</a></b></td><td>scikit-learn&nbsp;&nbsp;·&nbsp;&nbsp;XGBoost&nbsp;&nbsp;·&nbsp;&nbsp;PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;SHAP&nbsp;&nbsp;·&nbsp;&nbsp;ONNX Runtime</td></tr>
+<tr><td><b><a href="https://github.com/urmeo/CalmSense">CalmSense</a></b></td><td>scikit-learn&nbsp;&nbsp;·&nbsp;&nbsp;XGBoost&nbsp;&nbsp;·&nbsp;&nbsp;PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;SHAP&nbsp;&nbsp;·&nbsp;&nbsp;React</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/NexusRAG">NexusRAG</a></b></td><td>Sentence-Transformers&nbsp;&nbsp;·&nbsp;&nbsp;DeBERTa-NLI&nbsp;&nbsp;·&nbsp;&nbsp;LanceDB&nbsp;&nbsp;·&nbsp;&nbsp;Ollama</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/NovaVision">NovaVision</a></b></td><td>PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;Diffusers&nbsp;&nbsp;·&nbsp;&nbsp;Stable Diffusion&nbsp;&nbsp;·&nbsp;&nbsp;CLIP</td></tr>
 <tr><td><b><a href="https://github.com/urmeo/retinonorm">retinonorm</a></b></td><td>NumPy&nbsp;&nbsp;·&nbsp;&nbsp;SciPy&nbsp;&nbsp;·&nbsp;&nbsp;PyTorch&nbsp;&nbsp;·&nbsp;&nbsp;CNN probing</td></tr>
