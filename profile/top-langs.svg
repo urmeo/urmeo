@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="230" viewBox="0 0 450 230" role="img" aria-labelledby="title desc">
+  <title id="title">Most Used Languages</title>
+  <desc id="desc">Python: 77.10%; JavaScript: 8.69%; HTML: 5.82%; Jupyter Notebook: 4.15%; TypeScript: 2.22%; CSS: 2.02%. Percent of bytes among the top six languages.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .title { font-size: 21px; font-weight: 650; fill: #2f80ed; }
+    .body { font-size: 14px; fill: #434d58; }
+    .value { font-size: 15px; font-weight: 650; fill: #434d58; font-variant-numeric: tabular-nums; }
+    .language { font-size: 12px; fill: #434d58; }
+    .percent { font-size: 12px; font-weight: 600; fill: #434d58; font-variant-numeric: tabular-nums; }
+    .footer { font-size: 10px; fill: #57606a; }
+  </style>
+  <rect x="0.5" y="0.5" width="449" height="229" rx="10" fill="#fffefe" stroke="#e4e2e2"/>
+  <text x="26" y="38" class="title" >Most Used Languages</text>
+  <defs><clipPath id="bar"><rect x="26" y="61" width="398" height="10" rx="5"/></clipPath></defs><g clip-path="url(#bar)"><rect x="26.0000" y="61" width="306.8555" height="10" fill="#3572A5"/><rect x="332.8555" y="61" width="34.5898" height="10" fill="#f1e05a"/><rect x="367.4453" y="61" width="23.1467" height="10" fill="#e34c26"/><rect x="390.5920" y="61" width="16.5340" height="10" fill="#DA5B0B"/><rect x="407.1260" y="61" width="8.8346" height="10" fill="#3178c6"/><rect x="415.9606" y="61" width="8.0394" height="10" fill="#663399"/></g><circle cx="30" cy="101" r="4" fill="#3572A5"/><text x="42" y="105" class="language" >Python</text><text x="213" y="105" class="percent" text-anchor="end">77.10%</text><circle cx="30" cy="132" r="4" fill="#f1e05a"/><text x="42" y="136" class="language" >JavaScript</text><text x="213" y="136" class="percent" text-anchor="end">8.69%</text><circle cx="30" cy="163" r="4" fill="#e34c26"/><text x="42" y="167" class="language" >HTML</text><text x="213" y="167" class="percent" text-anchor="end">5.82%</text><circle cx="241" cy="101" r="4" fill="#DA5B0B"/><text x="253" y="105" class="language" >Jupyter Notebook</text><text x="424" y="105" class="percent" text-anchor="end">4.15%</text><circle cx="241" cy="132" r="4" fill="#3178c6"/><text x="253" y="136" class="language" >TypeScript</text><text x="424" y="136" class="percent" text-anchor="end">2.22%</text><circle cx="241" cy="163" r="4" fill="#663399"/><text x="253" y="167" class="language" >CSS</text><text x="424" y="167" class="percent" text-anchor="end">2.02%</text>
+  <path d="M26 195H424" stroke="#e4e2e2"/>
+  <text x="26" y="215" class="footer" >PUBLIC GITHUB DATA</text>
+  <text x="424" y="215" class="footer" text-anchor="end">Updated 10 Oct 2026</text>
+</svg>

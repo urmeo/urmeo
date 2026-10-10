@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="230" viewBox="0 0 450 230" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Stats</title>
+  <desc id="desc">Total stars: 20; Public commits (2026): 1685; Pull requests: 22; Issues opened: 12; Public repositories: 13</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .title { font-size: 21px; font-weight: 650; fill: #2f80ed; }
+    .body { font-size: 14px; fill: #434d58; }
+    .value { font-size: 15px; font-weight: 650; fill: #434d58; font-variant-numeric: tabular-nums; }
+    .language { font-size: 12px; fill: #434d58; }
+    .percent { font-size: 12px; font-weight: 600; fill: #434d58; font-variant-numeric: tabular-nums; }
+    .footer { font-size: 10px; fill: #57606a; }
+  </style>
+  <rect x="0.5" y="0.5" width="449" height="229" rx="10" fill="#fffefe" stroke="#e4e2e2"/>
+  <text x="26" y="38" class="title" >GitHub Stats</text>
+  <text x="26" y="72" class="body" >Total stars</text><text x="424" y="72" class="value" text-anchor="end">20</text>
+<text x="26" y="98" class="body" >Public commits (2026)</text><text x="424" y="98" class="value" text-anchor="end">1,685</text>
+<text x="26" y="124" class="body" >Pull requests</text><text x="424" y="124" class="value" text-anchor="end">22</text>
+<text x="26" y="150" class="body" >Issues opened</text><text x="424" y="150" class="value" text-anchor="end">12</text>
+<text x="26" y="176" class="body" >Public repositories</text><text x="424" y="176" class="value" text-anchor="end">13</text>
+  <path d="M26 195H424" stroke="#e4e2e2"/>
+  <text x="26" y="215" class="footer" >PUBLIC GITHUB DATA</text>
+  <text x="424" y="215" class="footer" text-anchor="end">Updated 10 Oct 2026</text>
+</svg>
