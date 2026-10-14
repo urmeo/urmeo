@@ -43,7 +43,7 @@
     <td>Python&nbsp;·&nbsp;PyTorch&nbsp;·&nbsp;Transformers</td>
   </tr></tbody>
   <tbody><tr>
-    <td><a href="https://github.com/urmeo/retinonorm"><strong>retinonorm</strong></a></td>
+    <td><a href="https://github.com/urmeo/cortexprobe"><strong>cortexprobe</strong></a></td>
     <td>Python&nbsp;·&nbsp;NumPy&nbsp;·&nbsp;SciPy</td>
   </tr></tbody>
   <tbody><tr>
