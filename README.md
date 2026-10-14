@@ -10,7 +10,7 @@
     srcset="https://github-readme-stats-fast.vercel.app/api?username=urmeo&amp;card_width=450&amp;border_radius=10&amp;disable_animations=true&amp;hide_rank=true&amp;hide=contribs&amp;include_all_commits=true&amp;line_height=24&amp;number_format=long&amp;custom_title=GitHub%20Stats&amp;bg_color=0d1117&amp;title_color=58a6ff&amp;text_color=e6edf3&amp;border_color=30363d"
   ><img
     alt="urme's GitHub statistics"
-    width="49%"
+    width="400"
     src="https://github-readme-stats-fast.vercel.app/api?username=urmeo&amp;card_width=450&amp;border_radius=10&amp;disable_animations=true&amp;hide_rank=true&amp;hide=contribs&amp;include_all_commits=true&amp;line_height=24&amp;number_format=long&amp;custom_title=GitHub%20Stats&amp;bg_color=ffffff&amp;title_color=0969da&amp;text_color=1f2328&amp;border_color=d1d9e0"
   ></picture></a>
   <a href="https://github.com/urmeo?tab=repositories"><picture><source
@@ -18,7 +18,7 @@
     srcset="https://github-readme-stats-fast.vercel.app/api/top-langs?username=urmeo&amp;card_width=450&amp;border_radius=10&amp;disable_animations=true&amp;layout=compact&amp;bg_color=0d1117&amp;title_color=58a6ff&amp;text_color=e6edf3&amp;border_color=30363d"
   ><img
     alt="Most used languages across urme's public repositories"
-    width="49%"
+    width="400"
     src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=urmeo&amp;card_width=450&amp;border_radius=10&amp;disable_animations=true&amp;layout=compact&amp;bg_color=ffffff&amp;title_color=0969da&amp;text_color=1f2328&amp;border_color=d1d9e0"
   ></picture></a>
 </p>
